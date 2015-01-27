@@ -13,10 +13,10 @@ public class MongoOperations
 
 		MongoClient client = new MongoClient (); // create client.
 		MongoServer server = client.GetServer ();// accesses server.
-		MongoDatabase db = server.GetDatabase (""); // get database - previously created/but will create if needed.
+		MongoDatabase db = server.GetDatabase ("TestStudentLocally"); // get database - previously created/but will create if needed.
 
 
-		MongoCollection <Student> studentCollection = db.GetCollection<Student> ("");// simple database of names - type Student
+		MongoCollection <Student> studentCollection = db.GetCollection<Student> ("TestStudentLocallyCollection");// simple database of names - type Student
 
 		Console.Write ("Enter a name:");
 		string sName = Console.ReadLine ();

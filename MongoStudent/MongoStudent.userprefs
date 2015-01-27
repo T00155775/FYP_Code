@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MongoStudent/Student.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MongoStudent/MongoOperations.cs">
     <Files>
       <File FileName="MongoStudent/Student.cs" Line="4" Column="22" />
+      <File FileName="MongoStudent/MongoOperations.cs" Line="19" Column="105" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
